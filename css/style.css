@@ -1,0 +1,60 @@
+
+
+.button_1{
+    height:38px;
+    background:#0F4C75;
+    border-radius: 10px;
+    border:none;
+    padding-left: 20px;
+    padding-right:20px;
+    color:white
+}
+.p-3{
+    background:#1B262C;
+}
+.form-control{
+    color:white;
+}
+/* Style the placeholder text color */
+.form-control-light::placeholder {
+    color: #aaa; /* Adjust the color to your desired placeholder color */
+}
+
+a.d-flex{
+    cursor:default;
+}
+
+.body-1 {
+    background: linear-gradient(to right, #00bfff, #4267b2, #87ceeb); /* Start with blue, transition to light blue, then dark blue */
+    background-size: 200% 200%; /* Stretch the gradient to create a wider and more dynamic effect */
+    animation: gradient-animation 20s ease infinite; /* Set a longer animation duration for a more gradual transition */
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+.bi{
+    margin-right: 20px;
+}
+
+
+.lead{
+    font-weight: 350;
+}
+
+.listner{
+    border-radius: 50%;
+    height:170px;
+    width:170px;
+    object-fit: fill;
+}
+
